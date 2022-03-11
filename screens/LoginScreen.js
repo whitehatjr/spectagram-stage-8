@@ -6,9 +6,9 @@ import {
     SafeAreaView,
     Platform,
     StatusBar,
-    Image
+    Image,
+    TouchableOpacity
 } from "react-native";
-import { TouchableOpacity } from "react-native-gesture-handler";
 import { RFValue } from "react-native-responsive-fontsize";
 
 import * as Google from "expo-google-app-auth";
